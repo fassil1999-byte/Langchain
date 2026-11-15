@@ -65,3 +65,4 @@ for i, chunk in enumerate(chunks):
     print(f"\nChunk {i + 1}:")
     print(chunk.page_content)
     print("Metadata:", chunk.metadata)
+
