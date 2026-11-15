@@ -44,7 +44,7 @@ retriever = vectorstore.as_retriever(
 )
 
 # Ask a question
-query = "How do computers learn from data?"
+query = "What are the benefits of the Seed Multiplication Scheme of Paddy?"
 
 # Retrieve relevant documents
 results = retriever.invoke(query)
